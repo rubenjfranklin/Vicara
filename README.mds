@@ -8,3 +8,4 @@ CMSIS DSP lib is added from github repository.
 
 Using stm32 stand by mode to minimize power consumption.
 the MCU is woken up by RTC wakeup interrupt every 10ms to perform Naive Bayes classification
+stand by mode is selected because it only consumes 0.10micro Amps when MCU is in stand by mode.
