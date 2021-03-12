@@ -1,2 +1,0 @@
-# Vicara
-Vicara test

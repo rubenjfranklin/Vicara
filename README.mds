@@ -1,0 +1,10 @@
+# Vicara
+Vicara test
+
+The program is targeting an STM32L0201D4 Cortex M0+ microcontroller.
+As minimal power consumption was of high priority.
+
+CMSIS DSP lib is added from github repository.
+
+Using stm32 stand by mode to minimize power consumption.
+the MCU is woken up by RTC wakeup interrupt every 10ms to perform Naive Bayes classification
